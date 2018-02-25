@@ -60,5 +60,9 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
         return super.onOptionsItemSelected(item);
     }
+
+    private void testMethod(){
+        System.out.println("Project successfully added to github");
+    }
 }
 
